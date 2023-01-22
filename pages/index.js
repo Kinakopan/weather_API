@@ -13,7 +13,7 @@ export default function Home() {
   const [weather, setWeather] = useState();
   const [errorMessage, setErrorMessage] = useState('');
   const [isWeatherLoaded, setIsWeatherLoaded] = useState(false);
-  const [weatherImg, setWeatherImg] = useState('');
+  const [weatherImg, setWeatherImg] = useState('/weather.jpeg');
   const [weatherIcon, setWeatherIcon] = useState('');
 
   useEffect(() => {
