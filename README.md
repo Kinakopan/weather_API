@@ -24,17 +24,17 @@ This application provides a feature for users to easily search and view the weat
 
 -![#1589F0] Displays current weather conditions including current temprature under city name, the human perception of weather like as "Feels like" in °C, minimal currently observed temperature as "Lowest" in °C, and maximal currently observed temperature as "Highest" in °C
 
-- ![#1589F0]Displays wind gust "Wind Gust" in m/s as only when there is a data
+- Displays wind gust "Wind Gust" in m/s as only when there is a data
 
-- ![#1589F0]Changes background image according to the weather conditions
+- Changes background image according to the weather conditions
 
-- ![#1589F0]Displays a default background image when no background image corresponds to the weather description
+- Displays a default background image when no background image corresponds to the weather description
 
-- ![#1589F0]Changes background icon according to the weather conditions
+- Changes background icon according to the weather conditions
 
-- ![#1589F0]Displays a default icon next to the current temprature when no icon corresponds to the weather description
+- Displays a default icon next to the current temprature when no icon corresponds to the weather description
 
-- ![#1589F0]Returns the message; "Please enter a valid location" when the city name inputed doesn't exist
+- Returns the message; "Please enter a valid location" when the city name inputed doesn't exist
 
 
 
