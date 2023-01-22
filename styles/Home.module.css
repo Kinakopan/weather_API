@@ -276,3 +276,164 @@
     transform: rotate(0deg);
   }
 }
+
+
+
+
+/* === Author === */
+
+/* common */
+.body,
+.bodyWrapper,
+.wrapper,
+.header,
+.main {
+  width: 100%;
+  display: flex;
+  color: white;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.bodyWrapper,
+.wrapper,
+.header,
+.main,
+.sec_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.body,
+.bodyWrapper {
+  height: 100vh;
+}
+
+.body {
+  overflow: hidden;
+  background-size: cover;
+  text-shadow: 0px 0px 8px #000000d4;
+}
+
+.body * {
+  outline: none;
+}
+
+.bodyWrapper {
+  background: rgba(191, 192, 255, .3);
+}
+
+/* header */
+.header,
+.header .wrapper {
+  justify-content: center;
+  height: 5rem;
+}
+
+.h1 {
+  font-size: 3rem;
+}
+
+/* main */
+.main {
+  justify-content: start;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.main,
+.main .wrapper {
+  height: calc(100vh - 5rem);
+}
+
+.main .wrapper {
+  padding: 2rem;
+}
+
+.sec_input {
+  height: 10%;
+}
+
+.input {
+  width: 26rem;
+  height: 2rem;
+  text-align: center;
+  color: black;
+  background: white;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.sec_result {
+  width: 25rem;
+}
+
+.dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.dt,
+.dd {
+  display: flex;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: left;
+  width: 60%;
+  font-weight: 100;
+}
+
+.dd {
+  width: 40%;
+}
+
+.dt:first-of-type,
+.dd:first-of-type {
+  height: 5rem;
+}
+
+.dt:first-of-type {
+  justify-content: flex-end;
+}
+
+.dd:first-of-type {
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+
+.dt:nth-of-type(2),
+.dd:nth-of-type(2) {
+  height: 5rem;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dt:nth-of-type(2) {
+  font-size: 5rem;
+  line-height: 5rem;
+  justify-content: center;
+}
+
+.dd:nth-of-type(2) {
+  justify-content: flex-start;
+}
+
+.dt:nth-of-type(3) {
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.dt:nth-of-type(n+4) {
+  padding-left: 3rem;
+}
+
+.dd:nth-of-type(n+3) {
+  padding-left: 1rem;
+}
