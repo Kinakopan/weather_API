@@ -1,4 +1,4 @@
-# #0969DA **Weather web application**
+# ** Weather web application **
 
 This is a [weather web application](https://weather-api-livid-omega.vercel.app/) using [Next.js](https://nextjs.org/) framework bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
